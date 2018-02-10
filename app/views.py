@@ -5,5 +5,5 @@ from app import app
 # views
 @app.route('/')
 def index():
-
-    return render_template('index.html')
+    message = 'Hello World'
+    return render_template('index.html', message=message)
