@@ -9,7 +9,7 @@ def index():
     return render_template('index.html', title=title)
 
 
-@app.route('/source/<int:source_id>')
-def source(source_id):
+@app.route('/news/<int:news_id>')
+def news(news_id):
     title = 'Read Articles from best Sources'
-    return render_template('source.html', id=source_id, title=title)
+    return render_template('source.html', id=news_id, title=title)
