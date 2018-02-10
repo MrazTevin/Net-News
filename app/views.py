@@ -24,7 +24,7 @@ def index():
     return render_template('index.html',title=title,business = business_sources,health=health_sources,science=science_sources,sports = sports_sources, technology = technology_sources,entertainment = entertainment_sources ,general=general_sources)
 
 
-@app.route('/news/<int:id>')
+@app.route('/news/<id>')
 def news(id):
     articles = get_articles(id)
     title = 'Read Articles from best Sources'

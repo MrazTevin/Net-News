@@ -9,12 +9,14 @@ url  = urllib.request.urlopen("http://google.com")
 print(url.read())
 
 Source = news.Source
+Article = news.Article
 
 # getting apiKey
 api_key = app.config['NEWS_API_KEY']
 
 # getting news base url
 base_url = app.config["NEWS_API_BASE_URL"]
+article_url = app.config["ARTICLE_NEWS_URL"]
 
 
 def get_sources(category):
