@@ -27,5 +27,5 @@ def index():
 @app.route('/news/<int:id>')
 def news(id):
     articles = get_articles(id)
-    title = f'{news.title}'
-    return render_template('news.html', title=title, articles=articles)
+    title = 'Read Articles from best Sources'
+    return render_template('news.html',  title=title, articles=articles)
