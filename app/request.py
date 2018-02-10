@@ -1,6 +1,12 @@
 from app import app
 import urllib.request,json
 from .models import news
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
+url  = urllib.request.urlopen("http://google.com")
+
+print(url.read())
 
 Source = news.Source
 
