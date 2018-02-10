@@ -9,6 +9,56 @@
     {% endif %}
   </head>
   <body>
+    <!-- General source -->
+       <h3> General Sources</h3>
+        <ul>
+           {% for general_sources in general %}
+               <li>{{ general_sources.title}}</li>
+           {% endfor %}
+       </ul>
+
+       <!-- Sports source  -->
+       <h3> Sports Sources </h3>
+        <ul>
+           {% for sports_sources in sports %}
+               <li>{{ sports_sources.title}}</li>
+           {% endfor %}
+       </ul>
+       <!-- Technology source -->
+       <h3>Technology Sources</h3>
+        <ul>
+           {% for technology_sources in technology %}
+               <li>{{ technology_sources.title}}</li>
+           {% endfor %}
+       </ul>
+       <!-- Entertainment source -->
+       <h3>Entertainment Sources</h3>
+        <ul>
+           {% for entertainment_sources in entertainment %}
+               <li>{{ entertainment_sources.title}}</li>
+           {% endfor %}
+       </ul>
+       <!-- Business source -->
+       <h3>Business Sources</h3>
+        <ul>
+           {% for business_sources in business %}
+               <li>{{ business_sources.title}}</li>
+           {% endfor %}
+       </ul>
+       <!-- Heath source -->
+       <h3>Health Sources</h3>
+        <ul>
+           {% for health_sources in health%}
+               <li>{{ health_sources.title}}</li>
+           {% endfor %}
+       </ul>
+       <!-- Science source -->
+       <h3>Science Sources</h3>
+        <ul>
+           {% for science_sources in science %}
+               <li>{{ science_sources.title}}</li>
+           {% endfor %}
+       </ul>
 
   </body>
 </html>
