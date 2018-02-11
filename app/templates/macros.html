@@ -14,5 +14,9 @@
 
 {% macro displayArticleList(articles_list)%}
 {% for news in articles_list %}
+<a href="{{news.url}}"><li>{{news.title}}</li></a>
+<img src="{{news.urlToImage}}" alt="{{news.title}}" style="width:200px; height:200px;">
+<p class="elite">{{news.description}}</p>
+<p class="elite">{{news.author}}</p>
 {% endfor %}
 {% endmacro %}

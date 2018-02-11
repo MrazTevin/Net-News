@@ -28,4 +28,4 @@ def index():
 def news(id):
     articles = get_articles(id)
     title = 'Read Articles from best Sources'
-    return render_template('news.html',  title=title, articles=articles)
+    return render_template('news.html', articles=articles,title=title)
