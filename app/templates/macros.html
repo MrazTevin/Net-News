@@ -14,9 +14,19 @@
 
 {% macro displayArticleList(articles_list)%}
 {% for news in articles_list %}
-<img src="{{news.urlToImage}}" alt="{{news.title}}" style="width:200px; height:200px;">
-<a href="{{news.url}}"><li>{{news.title}}</li></a>
-<p class="elite">{{news.description}}</p>
-<p class="elite">{{news.author}}</p>
+<div class="card" style="height:auto; width:50%; margin-bottom:5%; margin-left:0%;">
+            <div class="card-header">
+                    {{news.title}}
+            </div>
+            <div class="card-body">
+                    <img src="{{news.urlToImage}}" alt="{{news.title}}" style="height:200px; width:200px;"/>
+                    <p><b><i>Written by: </i></b>{{news.author}}</p>
+                    <p><b><i>Description: </i></b> {{news.description}}</p>
+                    <p><b><i>Published at: </i></b> {{news.publishedAt}}</p>
+            </div>
+            <div class="card-footer">
+                <b><i>Get More@: </i></b><a href="{{news.url}}">{{news.name}}</a>
+            </div>
+    </div>
 {% endfor %}
 {% endmacro %}
