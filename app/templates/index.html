@@ -7,40 +7,58 @@
 {% endblock %}
 <!--Content block-->
 {% block content %}
-  <!-- General source -->
- <h3> General </h3>
- <ul>
-     {{ macro.displayNewsList(general)}}
- </ul>
- <!-- Sports source  -->
- <h3> Sports </h3>
- <ul>
-     {{ macro.displayNewsList(sports)}}
- </ul>
- <!-- Entertainment source -->
- <h3> Entertainment </h3>
- <ul>
-     {{ macro.displayNewsList(entertainment)}}
- </ul>
- <!-- Business source -->
- <h3> Business </h3>
- <ul>
-     {{ macro.displayNewsList(business)}}
- </ul>
- <!-- Technology source -->
- <h3> Technology </h3>
- <ul>
-     {{ macro.displayNewsList(technology)}}
- </ul>
- <!-- Health source -->
- <h3> Health </h3>
- <ul>
-     {{ macro.displayNewsList(health)}}
- </ul>
- <!-- Science source -->
- <h3> Science </h3>
- <ul>
-     {{ macro.displayNewsList(science)}}
- </ul>
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">General</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(general)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-success">
+    <div class="panel-heading">Sports</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(sports)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-info">
+    <div class="panel-heading">Entertainment</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(entertainment)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-warning">
+    <div class="panel-heading">Business</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(business)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-danger">
+    <div class="panel-heading">Technology</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(technology)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">Health</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(health)}}</ul></p>
+      <hr>
+    </div>
+  </div>
+  <div class="panel panel-inverse">
+    <div class="panel-heading">Science</div>
+    <div class="panel-body">
+      <p><ul>{{ macro.displayNewsList(science)}}</ul></p>
+      <hr>
+    </div>
+  </div>
 
+
+
+</div>
 {% endblock %}
