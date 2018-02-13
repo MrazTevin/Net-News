@@ -30,10 +30,10 @@ Install the requirements.txt to get the dependancies needed.
 Use the heroku platform to deploy it online while run it on localhost:5000 to view it offline.
 
 ## Built With
-*8 Python
-*8 Html
-* Flask
-* Css
+## Python
+## Html
+## Flask
+## Css
 
 
 ## Authors
