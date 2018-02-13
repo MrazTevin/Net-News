@@ -30,18 +30,17 @@ Install the requirements.txt to get the dependancies needed.
 Use the heroku platform to deploy it online while run it on localhost:5000 to view it offline.
 
 ## Built With
-* [Python]
-* [Html]
-* [Flask]
-* [Css]
+*8 Python
+*8 Html
+* Flask
+* Css
 
 
 ## Authors
 
 * **TevinMilla** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
