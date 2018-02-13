@@ -7,6 +7,8 @@ NET NEWS
 An App that allows users to view News Article and Source for news around the Web.
 This app uses an Api from the News.org to retrieve and display different news sources with related articles.
 
+## Specifications
+* - See the [SPECS.md](https://github.com/MrazTevin/Net-News/blob/master/SPECS.md) for further details on this apps behaviour.
 
 ### Prerequisites
 
