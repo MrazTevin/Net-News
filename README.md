@@ -30,11 +30,10 @@ Install the requirements.txt to get the dependancies needed.
 Use the heroku platform to deploy it online while run it on localhost:5000 to view it offline.
 
 ## Built With
-
-* [Python](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Flask](https://maven.apache.org/) - Dependency Management
-* [Html](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [Css](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python]
+* [Html]
+* [Flask]
+* [Css]
 
 
 ## Authors
