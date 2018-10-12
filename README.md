@@ -13,9 +13,8 @@ This app uses an Api from the News.org to retrieve and display different news so
 ### Prerequisites
 
 You need to clone the repo and install it on your local machine using a git client.
-```
-Give examples
-```
+
+
 
 ### Installing
 git clone .....
